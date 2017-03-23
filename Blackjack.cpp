@@ -262,6 +262,8 @@ int main(){
         }else if(opcion == "c" || opcion == "C"){
           repetir = false;
           cartasdejugadores.clear();
+					win1 = 0;
+					win2 = 0;
           delete jugador;
       		delete pc_ai;
         }
